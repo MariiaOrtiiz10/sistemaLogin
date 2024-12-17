@@ -15,6 +15,7 @@ namespace sistemaLogin
         public Form1()
         {
             InitializeComponent();
+            Conector.OpenConnection();
         }
     }
 }
